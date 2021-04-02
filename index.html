@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Project</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wraper" id="loade">
+    <div class="load">
+      <hr/><hr/><hr/><hr/>
+    </div>
+  </div>
+  <!-- Start the settings box -->
+  <div class="settings" id="set">
+    <div class="icon1">
+      <i class="fa fa-gear"></i>
+    </div>
+    <div class="settings_content">
+      <h5 class="text-center">Colors Options <hr></h5>
+      <ul class="color_list text-center">
+        <li class="active" data-color="#daa520"></li>
+        <li data-color="#1abc9c"></li>
+        <li data-color="#f1c40f"></li>
+        <li data-color="#e67e22"></li>
+        <li data-color="#e74c3c"></li>
+        <li data-color="#8e44ad"></li>
+        <li data-color="#d35400"></li>
+        <li data-color="#d11c95"></li>
+      </ul>
+    </div> 
+   </div> 
+  <!-- End the settings box -->
+  <!-- Start the landing_page -->
+  <div class="landing_page">
+    <div class="overlay"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">A.CHEIKH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#porfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Start the introduction_text -->
+    <div class="introduction_text">
+      <h2 class="text-center text-uppercase">hi there !</h2>
+      <h1 class="text-uppercase text-center ">i'am a web <span class="animate"></span></h1>
+      <p class="text-center">I'm a Freelance  Designer and Developer  I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
+      <button type="button" class="btn btn-secondary btn-lg text-uppercase btn1 swipe_left">download cv</button>
+      <button type="button" class="btn btn-secondary btn-lg text-uppercase btn2 swipe_right">hire me</button>
+    </div>
+    <!-- End the introduction_text -->
+  </div>  
+  <!-- End the landing_page -->
+  <!-- Start the about me -->
+  <div class="about_me" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg child1">
+          <img src="image/05.jpeg" alt="not found" width="100%">
+        </div>
+        <div class="col-lg child2">
+          <div class="description">
+            <h1 class="text-uppercase">about me</h1>
+            <h2 class="text-capitalize">hello! <span>i'am abdellatif cheikh</span></h2>
+            <p>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,</p>
+          </div>
+          <div class="skills">
+            <h1>My Skills</h1>
+            <h5 class="text-capitalize">photoshop</h5>
+            <div class="progress">
+              <div class="progress-bar html"></div>
+            </div>
+            <h5 class="text-capitalize">html/css</h5>
+            <div class="progress">
+              <div class="progress-bar css"></div>
+            </div>
+            <h5 class="text-capitalize">web design</h5>
+            <div class="progress">
+              <div class="progress-bar js"></div>
+            </div>
+            <h5 class="text-capitalize">javaScript</h5>
+            <div class="progress">
+              <div class="progress-bar php"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End the about me -->
+  <!-- Start the portfolio -->
+  <div class="porfolio" id="porfolio">
+    <div class="container">
+      <div class="head text-center text-uppercase">
+        <h1>my works</h1>
+      </div>
+      <div class="list text-center">
+        <Ul class="text-center">
+          <li class="Active" onclick="Filter(0)">all</li>
+          <li onclick="Filter(1)">design</li>
+          <li onclick="Filter(2)">works</li>
+          <li onclick="Filter(3)">seo</li>
+          <li onclick="Filter(4)">wordpress</li>
+        </Ul>
+      </div>
+      <div class=" Parent row">
+        <div class="son all design col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/06.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+                <h6>Category</h6>
+                <h5>Project Title</h5>
+            </div>
+        </div>
+        <div class="son all seo col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/07.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+        <div class="son all design col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/08.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+        <div class="son all works col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/09.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+        <div class="son all design col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/10.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+        <div class="son all works col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/11.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+        <div class="son all wordpress col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/12.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+        <div class="son all works col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/13.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+        <div class="son all wordpress col-lg-4 col-md-6 col-sm-12">
+          <div class="over"></div>
+          <img src="image/14.jpeg" class="img-fluid" alt="Responsive image">
+          <div class="content">
+            <h6>Category</h6>
+            <h5>Project Title</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End the portfolio -->
+  <!-- Start the Blog -->
+  <div class="blog" id="blog">
+    <div class="container">
+      <h1 class="text-center text-uppercase">my blog</h1>
+      <p class="text-center paragraph">It is a long established fact that a reader will be of a page when established fact looking at its layout</p>
+      <div class="card-deck row">
+        <div class="card col-lg col-md-12 col-sm-12">
+          <div class="flow"><img src="image/14.jpg" class="card-img-top" alt="not found"></div>
+          <div class="card-body">
+            <h5 class="card-title">There are many variations</h5>
+            <h6>11 May 2020 <span> By A.Cheikh</span></h6>
+            <p class="card-text">Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</p>
+            <p class="card-text"><small class="text-muted">Read More...</small></p>
+          </div>
+        </div>
+        <div class="card col-lg col-md-12  col-sm-12">
+          <div class="flow"><img src="image/15.jpg" class="card-img-top" alt="not found"></div>
+          <div class="card-body">
+            <h5 class="card-title">Contrary to popular belief</h5>
+            <h6>11 May 2020 <span> By A.Cheikh</span></h6>
+            <p class="card-text">Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</p>
+            <p class="card-text"><small class="text-muted">Read More...</small></p>
+          </div>
+        </div>
+        <div class="card col-lg  col-md-12  col-sm-12">
+          <div class="flow"><img src="image/16.jpg" class="card-img-top" alt="not found"></div>
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum is not simply</h5>
+            <h6>11 May 2020 <span> By A.Cheikh</span></h6>
+            <p class="card-text">Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</p>
+            <p class="card-text"><small class="text-muted">Read More...</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End the Blog -->
+  <!-- Start the contact me -->
+  <footer>
+    <div class="contact" id="contact">
+      <div class="container">
+        <h1 class="text-center text-uppercase">contact me</h1><hr>
+        <div class="row">
+          <div class="col-lg">
+            <h3>Location</h3>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55049.1895498406!2d-9.612764150948923!3d30.419816343603518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b6e9daad1cc9%3A0xbcf8d0b78bf48474!2sAgadir%2080000!5e0!3m2!1sfr!2sma!4v1591047083244!5m2!1sfr!2sma" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          <div class="col-lg">
+            <h3>Contact Form</h3>
+            <form>
+              <input type="text" class="form-control" placeholder="First name"><br>
+              <input type="text" class="form-control" placeholder="Last name"><br>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+              </div>
+              <button class="btn btn-lg btn-block">Send Message</button>
+           </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg child">
+            <i class="fas fa-map-marker-alt fa-3x"></i>
+            <h6>Agadir</h6>
+          </div>
+          <div class="col-lg child">
+            <i class="fas fa-envelope  fa-3x"></i>
+            <h6>abdellatifcheikh@gmail.com</h6>
+          </div>
+          <div class="col-lg child">
+            <i class="fas fa-phone fa-3x"></i>
+            <h6>+212 655831384</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End the contact me -->
+  <script type="text/javascript" src= "js/jquery-3.4.1.js"></script>
+  <script type="text/javascript" .src="js/popper.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/8e21f64b95.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/typed.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
